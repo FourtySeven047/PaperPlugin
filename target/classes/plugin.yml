@@ -1,0 +1,18 @@
+name: PaperPlugin
+version: '1.0'
+main: fourtyseven.paperplugin.PaperPlugin
+
+commands:
+  wallet:
+    description: Erhalten eines Wallets
+  createplot:
+    description: Erstellen eines Plots
+  addpermission:
+    description: Hinzufuegen einer Permission
+  createBankAccount:
+    description: Creates Bankaccount
+  addMoney:
+    description: Add Money to Users Bank Account
+  npc:
+    description: Spawn an NPC
+
