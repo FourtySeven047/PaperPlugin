@@ -3,6 +3,7 @@ fourtyseven/paperplugin/Money/AccountManagement.class
 fourtyseven/paperplugin/SQL/MySQL.class
 fourtyseven/paperplugin/NPC/CustomEvent/PacketReader$1.class
 fourtyseven/paperplugin/Wallet/Wallet.class
+fourtyseven/paperplugin/Listener/NPCListener/ClickInNPCMenuListener.class
 fourtyseven/paperplugin/NPC/CustomEvent/PacketReader$2.class
 fourtyseven/paperplugin/Listener/WalletListener/WalletRightClickListener.class
 fourtyseven/paperplugin/Listener/ATMListener/ClickInATMListener.class

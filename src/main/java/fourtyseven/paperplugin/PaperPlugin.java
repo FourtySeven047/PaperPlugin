@@ -9,6 +9,7 @@ import fourtyseven.paperplugin.Listener.ATMListener.ClickInATMListener;
 import fourtyseven.paperplugin.Listener.ATMListener.OpenATMListener;
 import fourtyseven.paperplugin.Listener.BlockBreakEvent;
 import fourtyseven.paperplugin.Listener.JoinListener;
+import fourtyseven.paperplugin.Listener.NPCListener.ClickInNPCMenuListener;
 import fourtyseven.paperplugin.Listener.NPCListener.RightClickNPCListener;
 import fourtyseven.paperplugin.Listener.WalletListener.WalletRightClickListener;
 import fourtyseven.paperplugin.Money.AccountManagement;
@@ -81,6 +82,7 @@ public final class PaperPlugin extends JavaPlugin {
         manager.registerEvents(new ClickInATMListener(), this);
         manager.registerEvents(new WalletRightClickListener(), this);
         manager.registerEvents(new RightClickNPCListener(), this);
+        manager.registerEvents(new ClickInNPCMenuListener(), this);
 
         if(!Bukkit.getOnlinePlayers().isEmpty()){
             for (Player player : Bukkit.getOnlinePlayers()){

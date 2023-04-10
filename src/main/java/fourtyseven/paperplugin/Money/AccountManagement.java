@@ -32,7 +32,7 @@ public class AccountManagement implements CommandExecutor {
             //TODO: Erstelle Bank Account
             createBankAccount(player);
 
-            Inventory inventory =   player.getInventory();
+            Inventory inventory = player.getInventory();
 
             ItemStack card = new ItemStack(Material.PAPER, 1);
             ItemMeta meta = card.getItemMeta();
